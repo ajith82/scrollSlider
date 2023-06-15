@@ -23,14 +23,16 @@ h1 {
   position: sticky;
   /* top: 50px; */
 }
+.sliderHead {
+  padding-top: 50px;
+  position: sticky;
+  top: 0;
+}
 h2 {
   font-size: 45px;
   color: #ffffff;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  position: sticky;
-  top: 0;
 }
 .boxes {
   display: flex;
@@ -60,12 +62,14 @@ h2 {
   background-color: black;
   z-index: 4;
   position: relative;
-  padding: 100px;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h3 {
   font-size: 45px;
   color: #ffffff;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
 }
